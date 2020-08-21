@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pretty</title>
+    <link rel="shorcut icon" href="http://localhost:63342/StaffInformation/bin/socket套接字对象\1.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<!--<dl>标签-->
+<!--
+    属性:
+        1. action :提交的服务器网址
+        2. method :get(默认)获取资源:post,应用,登录注册,上传文件
+        3. 页面中的a img link 默认是get
+    子标签:
+        1. input标签
+            type属性
+                (1)text:文本输入框
+                (2)password:密码输入框
+                (3)file:文件按钮
+                (4)submit:提交按钮
+                (5)button:普通按钮
+            name属性
+                (1)提交到服务器端的key
+            value属性
+                (1)显示的文本内容,提交到服务器端value
+        2.label标签
+            (1)for:与下面某个表单控件的id进行关联
+-->
+<form action="https://www.baidu.com/s" method="get">
+<!--表单控件-->
+
+    <label for="username">用户名:</label>
+    <input type="text" name="username" value=""/><br>
+    <label for="pwd">密码:</label>
+    <input type="password" name="pwd"><br>
+    <input type="submit" value="注册"/>
+</form>
+</body>
+</html>
